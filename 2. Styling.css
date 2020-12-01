@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+}
+.con{
+    position: absolute;
+    height: 100vh;
+    top: 90%;
+    left: 42.5%;
+    transform: translate(-50%,-50%);
+}
+.ring{
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+    animation: illu 3s linear infinite;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    top: 20px;
+    position: absolute;
+    border-radius: 50%;
+    left: 20px;
+    background-color: white;
+}
+@keyframes illu{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(15);
+    }
+}
+.r2{
+    top: ;
+    animation-delay: .5s;
+}
+.r3{
+    top: ;
+    animation-delay: 1s;
+}
+.r4{
+    top: ;
+    animation-delay: 1.5s;
+}
+.r5{
+    top: ;
+    animation-delay: 2s;
+}
+.r6{
+    top: ;
+    animation-delay: 2.5s;
+}
+.r7{
+    top: ;
+    animation-delay: 3s;
+}
